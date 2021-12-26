@@ -1,2 +1,2 @@
 # YouChat
-A realtime chatting website built using NodeJs , socketIO .
+A realtime chatting website built using NodeJS , socketIO .
