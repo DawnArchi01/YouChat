@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS in HTML with in-Browser JavaScript</title>
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+
+    <link rel="stylesheet" href="webpgstyling.css" />
+  </head>
+
+  <body>
+    <h3>Using <strong>CSS</strong> to design/ style a webpage.</h3>
+    <section>
+    <p class="bGcyan Italics">
+      Basically there are three ways of using CSS in a html page i.e
+      <em> INLINE , INTERNAL , EXTERNAL .</em> Though there are a few of them we
+      will be using EXTERNAL due to its own pros.
+    </p>
+    <br />
+    
+    <p id="secPara">
+      We can target elements in html to style them by css by various ways .
+      Those are known as <b>CSS Selectors </b> . Let's create some paragraphs to
+      see the effect of various selectors . To know the functions of the
+      selectors , refer to the CSS file .
+    </p>
+    <span>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit,
+      magnam.</span
+    >
+
+    <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+
+    <h3>FONTS AND COLORS IN CSS .</h3>
+    <div id="fontscol">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+        corporis non ut id recusandae perferendis libero saepe laudantium eius
+        ullam?
+      </p>
+    </div>
+    <h4 align="center">THIS IS ABOUT BORDERS , BACKGROUNDS AND MORE</h4>
+    <br />
+    <div class="bordbg" id="lol">
+      <div class="mySlides fade">
+        <div class="number">1 / 3</div>
+        <img src="./bg.jpeg" width="100%" alt="" />
+        <div class="textCap">Caption - 1</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="number">2 / 3</div>
+        <img src="./busm.jpg" width="100%" alt="" />
+        <div class="textCap">Caption - 2</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="number">3 / 3</div>
+        <img src="./download.png" width="100%" alt="" />
+        <div class="textCap">Caption - 3</div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <h4><strong>BOX MODEL CSS</strong>&nbsp;(PADDING AND MARGINS)</h4>
+    <p id="boxmodel" name="uk">
+      Checking out the incredible CSS box model . It's very simple and helpful
+      while designing web pages using CSS . The main <i>constituents</i> of a
+      box model (<i>from outside</i>) are margin, border and padding . The
+      contents are inside the padding box . Ok let's get started . Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. Est praesentium ab culpa
+      minus at et voluptates odio, adipisci aut vero iure. Tempora ipsum
+      repudiandae molestiae dolorem, saepe ea et reprehenderit aperiam aliquam
+      pariatur quidem, blanditiis eveniet culpa! Enim, quae totam. WELL , CHEERS
+      !!
+      <br />
+
+      <a href="first.html" target="_blank" class="button">Read more</a>
+      <button class="button" id="btn" onclick="showOrNot()">OK</button>
+    </p>
+
+    <div class="container">
+      <h1>Welcome to my store</h1>
+      <div id="fruit" class="item">
+        <h3>Fruits</h3>
+        <p id="fruitpara" class="para">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+          quibusdam explicabo, porro magnam quas sint enim cumque minima odit
+          cupiditate ex itaque, eaque distinctio sed ipsam totam, nihil tenetur.
+          Recusandae. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Aspernatur fugiat iusto vel. Qui, veniam nam, enim dolore deleniti
+          dignissimos veritatis tenetur animi sunt voluptatem laboriosam, nihil
+          inventore molestias totam. Quas ducimus quibusdam quaerat
+          necessitatibus.
+        </p>
+      </div>
+      <div id="computer" class="item">
+        <h3>Computer</h3>
+        <p id="computerpara" class="para">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+          quibusdam explicabo, porro magnam quas sint enim cumque minima odit
+          cupiditate ex itaque, eaque distinctio sed ipsam totam, nihil tenetur.
+          Recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Rerum commodi vitae exercitationem necessitatibus laboriosam corporis
+          dicta, eveniet architecto reprehenderit eum id repudiandae deleniti
+          fugiat fugit inventore ea dolorum neque amet nulla vero culpa.
+          Accusamus.
+        </p>
+      </div>
+      <div id="stationary" class="item">
+        <h3>Stationary</h3>
+        <p id="stationarypara" class="para">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+          quibusdam explicabo, porro magnam quas sint enim cumque minima odit
+          cupiditate ex itaque, eaque distinctio sed ipsam totam, nihil tenetur.
+          Recusandae.
+        </p>
+      </div>
+      <div id="glasses" class="item">
+        <h3>Glasses</h3>
+        <p id="glassespara" class="para">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+          quibusdam explicabo, porro magnam quas sint enim cumque minima odit
+          cupiditate ex itaque, eaque distinctio sed ipsam totam, nihil tenetur.
+          Recusandae.
+        </p>
+      </div>
+    </div>
+    <div class="box">
+      <h3>FLEXBOX CONCEPT IN CSS</h3>
+      <div class="flexbox" id="box-1">THIS IS BOX-1.</div>
+      <div class="flexbox" id="box-2">THIS IS BOX-2.</div>
+      <div class="flexbox" id="box-3">THIS IS BOX-3.</div>
+    </div>
+    <br />
+    <h2 align="center">Box Shadow and Text Shadow.</h2>
+    <div class="baskho">
+      <div class="bask" id="bask-1">
+        <h3>This is baskho 1</h3>
+      </div>
+      <div class="bask" id="bask-2">
+        <h3>This is baskho 2</h3>
+      </div>
+      <div class="bask" id="bask-3">
+        <h3>This is baskho 3</h3>
+      </div>
+    </div>
+    <div class="gridCSS">
+      <div class="gridItems">Item-1</div>
+      <div class="gridItems">Item-2</div>
+      <div class="gridItems">Item-3</div>
+      <div class="gridItems">Item-4</div>
+      <div class="gridItems">
+        <h2>GRIDS IN CSS</h2>
+        <p>
+          Using grid in CSS is a tool same as the flexbox and float tools as
+          we've learned earlier . We can use any of them to fulfill our demands
+          as per our convenience . Although , Grids are more preferrable while
+          designing layouts for websites there is no fixed rule as to use only
+          grids . Through GRIDS , it made possible to create desirable number of
+          columns and rows with easier and proper syntaxes . This item/ box is a
+          proper example of
+          <!--using-->
+          spanning grids to compile rows + colums in a single item or so .
+        </p>
+      </div>
+      <div class="gridItems">Item-5</div>
+      <div class="gridItems">Item-6</div>
+      <div class="gridItems">Item-7</div>
+      <div class="gridItems">Item-8</div>
+    </div>
+    <br />
+    <hr />
+    <div class="javascript">
+      <span>
+        Now , that we've completed html & css , we move on to learn the
+        scripting language , known as <strong><em>JavaScript</em></strong> also
+        referred to as client-side server language . JS (JavaScript) is used to
+        bring changes in the html webpage as well additional effects . In this
+        case , we've made a distinct file
+        <a href="./stylingInBrowserJS.js"> webpgstyling.css </a> to code & save our
+        js in the respective file . To check the codes refer to the .js file
+        given or go to the console section in the chrome web-developer tool .
+      </span>
+    </div>
+  </section>
+    <div class="TIME"><span id="time"></span></div>
+    <div id="progress-bar"></div>
+    <script src="stylingInBrowserJS.js"></script>
+    <!-- <script type = "text/javascript" src="file.js"></script> -->
+  </body>
+</html>
